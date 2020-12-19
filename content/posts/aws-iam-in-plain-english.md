@@ -3,6 +3,8 @@ title: "AWS IAM in Plain English"
 date: "2019-08-29T14:29:14+06:00"
 ---
 
+---
+
 ## Intro
 
 AWS Identity and Access Management (IAM) is a web service that helps us securely control access to AWS resources. We can control authentication (who can signed in) and authorization (who has permissions to use resources) using IAM.
@@ -10,6 +12,8 @@ When we create an AWS account, we get a root user which has complete access to a
 
 IAM is free to use. We will be charged only when we access other AWS services using our IAM users credentials.
 As the name (AWS Identity and Access Management) says, there is Identities and there is Access management.
+
+---
 
 ## Identities :
 
@@ -33,6 +37,8 @@ An IAM role is very similar to a user, in that it is an identity with permission
 
 > To decide when to create IAM Users and when to create IAM Roles, please check the official doc : https://amzn.to/2GItEb4
 
+---
+
 ## Access Management :
 
 Access Management is often referred to as authorization. This portion of IAM manages what a principal entity(person or application) is allowed to do in an account. We can manage access by creating policies and attaching them to IAM identities or AWS resources.
@@ -45,15 +51,16 @@ A policy is an object that defines permissions. Most policies are stored as JSON
 
 Identity-based policies are attached to an IAM identity (user, group or role). These policies defines what actions the identity can perform, on which resources, and under what conditions.
 
-##### Managed Policies :
+- Managed Policies :
 These are standalone policies that we can attach to multiple users, groups and roles.
 
-##### Inline Policies : 
+- Inline Policies : 
 We can create inline policies that are embedded directly into a single user, group or role.
 
 #### Resource-based policies :
 Resource-based policies are attached to a resource (i.e, Amazon S3 bucket). These policies control what actions a specified principal can perform on that resource and under what conditions.
 
+---
 
 ## References
 

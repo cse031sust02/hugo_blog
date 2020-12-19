@@ -3,6 +3,8 @@ date: "2017-04-10T15:56:44+06:00"
 title: "Exception Handling with PHP"
 ---
 
+---
+
 ### What is Exception
 
 Exception is an error condition which change the normal flow of code execution. Exceptions are catchable. That means, we can catch and try to recover or continue with the execution of the program.

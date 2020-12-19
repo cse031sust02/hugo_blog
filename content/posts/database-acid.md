@@ -3,6 +3,8 @@ date: "2017-04-11T11:13:09+06:00"
 title: "Database & ACID properties"
 ---
 
+---
+
 ## What is Database? :
   A database is a collection of data that is stored in an organized manner.
 

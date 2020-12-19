@@ -3,9 +3,13 @@ date: "2018-01-23T11:21:11+06:00"
 title: "Send notifications using Firebase"
 ---
 
+---
+
 ## What is Firebase?
   
 Firebase is a very popular platform for developing mobile and web application. Firebase provides many services of different categories such as : analytics, authentication, app performance reports, cloud hosting etc. To view the list of all products with details, please check this [page](https://firebase.google.com/products/).
+
+---
 
 ## Firebase Cloud Messaging (FCM)
 
@@ -18,7 +22,9 @@ Firebase Cloud Messaging([FCM]((https://firebase.google.com/products/cloud-messa
 * We can send notification messages immediately, or at a future time in the user's local time zone.
 * Messages are fully integrated with Firebase Analytics in order to track user engagement and conversion.
 
-### How does it work?
+---
+
+## How does it work?
 
 An FCM implementation includes two main components for sending and receiving messages or notifications
 
@@ -28,7 +34,9 @@ An FCM implementation includes two main components for sending and receiving mes
 
 The app server (or trusted server environment) sends message requests to the FCM servers(provided by Google), which then sends messages to client apps.
 
-### FCM Messages
+---
+
+## FCM Messages
 
 FCM messages are divided into two types : Notification messages and Data messages.
 

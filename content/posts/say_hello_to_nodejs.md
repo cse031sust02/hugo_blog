@@ -3,11 +3,10 @@ date: "2017-05-07T16:21:40+06:00"
 title: "Say 'Hello' to Node.js"
 ---
 
-## What is Node.js? :
-> Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
-- [Official Website](https://nodejs.org/en/)
+---
 
-> **Creepy, huh?**
+## What is Node.js? :
+> Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world -- [Official Website](https://nodejs.org/en/)
 
 #### npm?
 [npm](https://www.npmjs.com/) is the Node.js package manager. It allows us to easily install modules and packages to use with Node.js.

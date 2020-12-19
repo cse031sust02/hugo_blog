@@ -3,15 +3,18 @@ date: "2017-06-20T16:21:21+06:00"
 title: "Installing LEMP stack on ubuntu 14.04"
 ---
 
+---
 ## What is LEMP stack?
 
 LEMP stands for **Linux**, **nginx** (pronounced engine-x), **MySQL**, and **PHP**. It is actually a variation of the LAMP stack where Apache is replaced with nginx.
+
+---
 
 ## Setup 
 
 So, We are going to setup LEMP stack on our ubuntu 14.04 machine.
 
-### **Step 1 : Update Apt-Get**
+#### **Step 1 : Update Apt-Get**
 
 Update the package database. To know more about **apt-get**, please visit this [page](https://itsfoss.com/apt-get-linux-guide).
 
@@ -19,7 +22,7 @@ Update the package database. To know more about **apt-get**, please visit this [
 sudo apt-get update
 ```
 
-### **Step 2 : Install nginx**
+#### **Step 2 : Install nginx**
 
 Installing nginx is very easy as Ubuntu provides nginx package in its default repositories.
 
@@ -30,7 +33,7 @@ sudo apt-get install nginx
 We should now be able to access the default Nginx landing page from our browser by entering our server's domain name or public IP address.
 
 
-### **Step 3 : Install PHP**
+#### **Step 3 : Install PHP**
 
 Now it's time to install PHP. We will be using PHP 7 which is the latest version. 
 
@@ -49,7 +52,7 @@ sudo apt-get install php7.0-mysql php7.0-cli php7.0-mbstring
 ```
 To find out all available PHP7 modules, we can use the `sudo apt-cache search php7-*` command.
 
-#### Configure Nginx to Use the PHP Processor
+###### Configure Nginx to Use the PHP Processor :
 
 Now, we still need to tell nginx to use our PHP processor for serving php files.
 
@@ -93,7 +96,7 @@ sudo service nginx restart
 
 We can test if everything is working properly by creating a php file in `/var/www/html` directory and then try to access that file from our browser.
 
-### **Step 4 : Install MySQL**
+#### **Step 4 : Install MySQL**
 
 Now we will install MySQL. we can do it very easily with the following command,
 

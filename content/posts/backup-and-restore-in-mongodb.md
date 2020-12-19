@@ -5,6 +5,8 @@ title: "Backup and Restore MongoDB Databases"
 
 MongoDB comes with two commands that allow us to quickly backupand restore to our running MongoDB instances. In order to take backups, we can use the `mongodump` command which creates BSON dump files. And to restore those dump, we can use the `mongorestore` command.
 
+---
+
 ##  Taking Backups
 
 #### - all databases

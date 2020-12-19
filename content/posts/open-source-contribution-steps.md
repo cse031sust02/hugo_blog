@@ -3,6 +3,8 @@ date: "2018-09-27T11:36:51+06:00"
 title: "A step-by-step technical guide for open source contribution"
 ---
 
+---
+
 ## Intro
 
 This is a very simple guide for first-timers to making open source contributions. I guess that you already have a GitHub account and know basic git commands.

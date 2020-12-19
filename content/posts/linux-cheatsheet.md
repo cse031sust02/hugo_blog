@@ -3,11 +3,15 @@ date: "2017-05-17T15:50:31+06:00"
 title: "Getting Started with Linux Command Line"
 ---
 
+---
+
 ## What is Linux?
 
 Just like Windows and Mac OS X, Linux is an operating system. It is an open source [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating system.
 
 Although Linux is generally used to refer to the entire OS, Linux is basically the name of the Kernel which was [developed](https://github.com/torvalds/linux) by [Linus Torvalds](https://github.com/torvalds). I think [this answer](https://unix.stackexchange.com/a/94407) explains it all.
+
+---
 
 ## Linux Commands
 

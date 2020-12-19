@@ -4,8 +4,6 @@ date: "2017-04-22T16:13:16+06:00"
 title: "So you want to start using Redis?"
 ---
 
-## What is Redis?
-
 Redis is an in-memory data structure server. Which can be used as database, cache and message broker. 
 
 Redis = REmote DIctionary Server.

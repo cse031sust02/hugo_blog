@@ -3,6 +3,8 @@ date: "2017-11-16T18:37:12+06:00"
 title: Use Case Diagram
 ---
 
+---
+
 ## Intro
 Use Case Diagrams are used to visualize different types of users in a system and how those users interact with the system. It provides a higher-level view of the system.
 
@@ -36,6 +38,6 @@ We should first identify actors, use cases and their relationships(both include 
 
 #### Example 
 
-![Use Case Diagram](https://i-msdn.sec.s-msft.com/dynimg/IC313333.jpeg "Use Case Diagram")
+![Use Case Diagram](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2015/modeling/media/uml-ucovactor.png?view=vs-2015 "Use Case Diagram")
 
 > source : [msdn](https://msdn.microsoft.com/en-us/library/dd409427.aspx)

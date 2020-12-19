@@ -3,18 +3,23 @@ date: "2017-08-09T11:27:15+06:00"
 title: "Introduction to Websocket"
 ---
 
+---
+
 ## Intro
 
 WebSocket is a protocol (like HTTP) which defines how two parties can communicate. It is a technique for two-way communication over one (TCP) socket.
 
 A very good intro is written in this [post](http://blog.teamtreehouse.com/an-introduction-to-websockets)
   
+---
 
 ### How It Works
   
 WebSockets provide a **persistent connection** between a **client** and **server**. 
 
 Once a WebSocket connection is established the connection stays open until the client or server decides to close this connection. With this open connection, the client or server can send messages to each other at any given time.
+
+---
 
 ### Why Use Websocket?
   
@@ -24,6 +29,7 @@ Another use case for WebSocket is developing WebRTC-based applications.
 
 Websockets can replace long-polling (keeping an HTTP connection open until the server has some data to push down to the client).
   
+---
 
 ## Client & Server
   

@@ -3,6 +3,8 @@ date: "2020-10-21T06:05:22+06:00"
 title: "Customizing authentication in Django"
 ---
 
+---
+
 ## Intro
 The authentication that comes with Django is good enough for most common cases. Django also allows us to customize authentication if the defaults don't match our requirements.
 

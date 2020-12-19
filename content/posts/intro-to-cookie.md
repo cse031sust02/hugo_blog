@@ -3,6 +3,8 @@ date: "2017-04-11T11:11:22+06:00"
 title: "Introduction to Cookie"
 ---
 
+---
+
 ## What is a HTTP Cookie?
 
 Cookies are small files that is sent from a website(server) and stored on users's computer by a browser.
@@ -19,7 +21,9 @@ Cookies are mainly used for these purposes
   
   source : [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
-### How server/client sends cookie?
+---
+
+## How server/client sends cookie?
 
 #### Server to Browser
 
@@ -39,7 +43,8 @@ Set-Cookie:"MyCookieName=MyValue; expires=Tue, 11-Apr-2016 09:22:03 GMT; Max-Age
 To set cookie using [php](http://php.net/manual/en/function.setcookie.php),
 
 ```php
-setcookie("mycookie", '20seconds', time()+20);  /* expire in 20 second */
+/* expire in 20 second */
+setcookie("mycookie", '20seconds', time()+20);  
 ```
 
 
@@ -56,6 +61,8 @@ Cookie: MyCookieName=MyValue
 ```
 
 For more details, please check http://www.cookiecentral.com/faq/#3.2
+
+---
 
 ## Secuirity
 

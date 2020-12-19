@@ -3,6 +3,8 @@ date: "2019-12-10T10:05:22+06:00"
 title: "My notes about the basics of MongoDB"
 ---
 
+---
+
 ## Intro
 MongoDB is a document-oriented [NoSQL](https://www.mongodb.com/nosql-explained) database. It is one of the most powerful NoSQL systems and databases around, today.
 

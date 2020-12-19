@@ -1,4 +1,21 @@
 baseURL = "https://cse031sust02.github.io/"
 languageCode = "en-us"
-title = "cse031sust02"
-theme = "contrast-hugo"
+title = "CSE031 SUST02"
+theme = "hyde"
+disqusShortname = "cse031sust02"
+googleAnalytics = "UA-67303858-1"
+
+[Menus]
+  main = [
+  	  {Name = "Github", URL = "https://github.com/cse031sust02/"},
+      {Name = "Github", URL = "https://github.com/cse031sust02/"},
+      {Name = "Twitter", URL = "https://twitter.com/cse031sust02"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/talhasust/"}
+  ]
+
+[params]
+  description = "A n00b's rambling journey into the world of programming"
+  layoutReverse = true
+  gravatar = "cse031sust02.freelancer@gmail.com"
+
+

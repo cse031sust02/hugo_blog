@@ -3,6 +3,8 @@ title: "JSON"
 date: "2017-04-09T18:15:22+06:00"
 ---
 
+---
+
 ## What is JSON?
 JSON stands for JavaScript Object Notation. 
 
@@ -12,17 +14,17 @@ JSON filenames use the extension .json.
 
 The official internet media type for JSON is 'application/json'
 
-### Why use JSON?
+### Why use JSON?: 
 Because It is
 
 - lightweight data-interchange format. 
 - language independent
 - "self-describing" and easy to understand by both humans (to understand) and machines (to parse and generate).
 
-### Areas of Usage?
+### Areas of Usage:
 JSON is heavily used in these areas : API, NoSQL, AJAX, Package Management (Composer, NPM, Bower etc)
 
-### Why better than XML?
+### Why better than XML?:
 JSON is faster and easier than XML. It is parsed very easily into a ready-to-use JavaScript object while XML is much more difficult to parse.
 
 ---

@@ -3,6 +3,8 @@ date: "2017-04-11T11:11:48+06:00"
 title: "My Personal Git Cheat Sheet"
 ---
 
+---
+
 ## What is GIT?
 Git is a free and open source distributed version control system.
 
@@ -50,18 +52,19 @@ git config --global --list
 git config --system --list
 ```
 
-> **Extra**
-
-> - [What's Inside .git Directory?](http://gitready.com/advanced/2009/03/23/whats-inside-your-git-directory.html)
-> - **Editor** : By default, Git uses whatever you’ve set as your default text editor ($VISUAL or $EDITOR) or else falls back to the vi editor to create and edit your commit and tag messages.for example, to use Sublime as the editor, `git config --global core.editor "subl -n -w"`
-> - **aliases** : we can also easily set up an alias for each command using git config.
-
-
 ### Initialization (create a new repository)
 To initialize git on a project, simply use `git init` command.
 ( *a hidden folder named `.git` will be created in the project's root directory* )
 
 To get a copy of an existing Git repository, use the `git clone` command.
+
+---
+
+## Extra
+
+> - [What's Inside .git Directory?](http://gitready.com/advanced/2009/03/23/whats-inside-your-git-directory.html)
+> - **Editor** : By default, Git uses whatever you’ve set as your default text editor ($VISUAL or $EDITOR) or else falls back to the vi editor to create and edit your commit and tag messages.for example, to use Sublime as the editor, `git config --global core.editor "subl -n -w"`
+> - **aliases** : we can also easily set up an alias for each command using git config.
 
 ---
 

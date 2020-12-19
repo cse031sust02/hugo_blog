@@ -3,7 +3,9 @@ date: "2017-04-10T15:27:28+06:00"
 title: "Accepting payments on your site using Stripe"
 ---
 
-## What is [Stripe](https://stripe.com/)
+---
+
+## What is [Stripe](https://stripe.com/)?
 A popular payment processor. It accepts payments from customers around the world on web or in mobile apps.
   
 ### Payment types
@@ -18,7 +20,7 @@ Using card information with Stripe is a two-step process
 1. Securely collect payment information using tokenization
 2. Use the payment information in a charge request or save it for later
 
-### Step 1. Securely collect payment information using tokenization
+### Step 1 : Securely collect payment information using tokenization
 Stripe provides three methods for tokenizing customer’s payment information over HTTPS
 Checkout, Stripe.js & Mobile SDKs
 
@@ -38,8 +40,8 @@ If we want to customize the payment form for our need, then we can make use of S
 #### 3. [Mobile SDKs](https://stripe.com/docs/mobile)
 Stripe has native libraries for iOS and Android applications.
 
-### Step 2. Use the tokenized payment information
-While a token is created on the first step, now the token is used by our server-side to make an API request to Stripe. Two common examples of when you would use a token are,
+### Step 2 : Use the tokenized payment information
+While a token is created on the first step, now the token is used by our server-side to make an API request to Stripe. Two common examples of when you would use a token are :
 
 #### Charging the customer immediately
 We can create a one-time charge request to charge a customer’s card. 

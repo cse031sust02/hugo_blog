@@ -3,6 +3,8 @@ date: "2017-08-08T17:46:18+06:00"
 title: "Data Structure Basics"
 ---
 
+---
+
 ## What is Data Structure?
 
 Data structures are ways to store data in an organized fashion so that it can be used efficiently. Just like there are many ways (i.e alphabetically or by genre) you can organize your books in a bookshelf.

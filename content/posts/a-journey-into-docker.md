@@ -1,6 +1,8 @@
 ---
-date: "2020-11-01T01:29:14+06:00"
+date: "2020-12-19T01:29:14+06:00"
 title: "A Journey into the Docker World"
+---
+
 ---
 
 ## What is Docker?

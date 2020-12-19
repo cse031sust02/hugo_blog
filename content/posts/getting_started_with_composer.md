@@ -3,10 +3,10 @@ date: "2017-04-23T17:37:13+06:00"
 title: "Getting Started with Composer"
 ---
 
-## What is [Composer](https://getcomposer.org/)?
-> Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. 
+---
 
-> **source** : [getcomposer.org](https://getcomposer.org/doc/00-intro.md) 
+## What is Composer?
+> Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. - [getcomposer.org](https://getcomposer.org/doc/00-intro.md) 
 
 
 ### Why Use Composer?
@@ -58,6 +58,7 @@ composer help [command-name]
 composer diagnose
 ``` 
 
+---
 
 ## Project Setup
 
@@ -101,7 +102,7 @@ To update any single package only, the command will be : `composer update [packa
 ---
 
 ## Did you know?
-We have to understand few key facts while working with composer
+We have to understand few key facts while working with composer.
 
 ### # 'composer install' vs 'composer update'
 To get a clear idea what actually happens when we use the `composer install` & `composer update` commands, please visit the [official doc](https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies). I am trying to write the thing in my own way.

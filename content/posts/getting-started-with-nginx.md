@@ -3,6 +3,8 @@ date: "2017-08-20T17:18:51+06:00"
 title: "How I learned to stop panicking and play with NGINX"
 ---
 
+---
+
 ## What is Nginx
  
 Nginx is a high performance web server which is lightweight, free and open-source. It can be used as a standalone [web server](https://youtu.be/XhgUClE5uC0?t=11m13s) (like Apache) or as a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy) (serve in front of the web servers). Nginx is also used as mail proxy server, load balancer and HTTP cache. 
@@ -13,6 +15,7 @@ There are other web servers such as Apache, IIS etc. So what makes Nginx special
 
 Nginx can also work alognside other web servers as a reverse proxy. Nginx not only serve HTTP & HTTPS protocol but also IMAP, POP3 and SMPT. We can use Nginx on servers with very limited hardware capabilites. A very detailed overview of why we should use Nginx can be found [here](https://youtu.be/XhgUClE5uC0?t=16m57s).
 
+---
 
 ## Installation
 
@@ -21,6 +24,8 @@ There are various ways to download and install Nginx. Please follow [Official Gu
 On Ubuntu, One should be able to install Nginx easily with the `apt-get install nginx` command.
 
 After installing Nginx, we should see the welcome page by entering the IP address (we can get that using `ifconfig` command) of our server on a browser.
+
+---
 
 ## Configuration
 
@@ -104,6 +109,8 @@ So, now every virtual servers listed in **sites-enabled** folder will be public 
 We usually have to manage many different sites and may need to activate/deactivate any particular site anytime. This is why we use **sites-available** folder for storing all of our virtual host configurations(whether they're currently enabled or not). To enable any particular virtual host, we will symbolically link it's configuration file to **sites-enabled** directory.
 
 I have written another [post](https://cse031sust02.github.io/post/understanding-nginx-server-block/) where i tried to explain the server block in details.
+
+---
 
 ## Reloading Nginx
 

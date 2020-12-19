@@ -3,6 +3,8 @@ date: "2017-04-09T16:31:49+06:00"
 title: "Blogging with Hugo"
 ---
 
+---
+
 ## Install Hugo
 To install Hugo in your operating system, please visit the [official guide](http://gohugo.io/overview/installing/). As I am using ubuntu, installing Hugo is as simple as `sudo apt install hugo`
 

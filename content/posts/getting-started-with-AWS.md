@@ -3,11 +3,15 @@ date: "2017-09-12T16:05:22+06:00"
 title: "Getting started with AWS"
 ---
 
+---
+
 ## What is AWS?
 
 Amazon Web Services (AWS) is a secure cloud services platform. It provides a broad set of infrastructure services, such as computing power, storage options, networking and databases. Millions of customers use AWS cloud [products](https://aws.amazon.com/products/) and [solutions](https://aws.amazon.com/solutions/) to build sophisticated applications.
 
 **source** : https://aws.amazon.com/what-is-aws/
+
+---
 
 ## Getting Started
 
@@ -16,6 +20,8 @@ Go to https://portal.aws.amazon.com/billing/signup#
 
 #### Get Hands On
 These [10-Minute Tutorials](https://aws.amazon.com/getting-started/tutorials/) are simple “Hello, World!” technical documents to help you get hands-on with AWS.
+
+--- 
 
 ## Most Used Services
 
