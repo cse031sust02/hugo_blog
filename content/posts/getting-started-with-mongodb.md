@@ -1,6 +1,6 @@
 ---
 date: "2019-12-10T10:05:22+06:00"
-title: "My notes about the basics of MongoDB"
+title: "My notes on MongoDB"
 ---
 
 ---
@@ -18,14 +18,15 @@ Here is the key features of MongoDB :
 - Ad hoc queries, indexing, and real time aggregation provide powerful ways to access and analyze your data
 - MongoDB is a distributed database at its core, so high availability, horizontal scaling, and geographic distribution are built in and easy to use
 
-src : [MongoDB Website](https://www.mongodb.com/what-is-mongodb)
+> source: [MongoDB Website](https://www.mongodb.com/what-is-mongodb)
 
+---
 
 ## Terminology
 
 ![](https://beginnersbook.com/wp-content/uploads/2017/09/RDBMS_MongoDB_Mapping.jpg)
 
-src : [beginnersbook.com](https://beginnersbook.com/wp-content/uploads/2017/09/RDBMS_MongoDB_Mapping.jpg)
+> source: [beginnersbook.com](https://beginnersbook.com/wp-content/uploads/2017/09/RDBMS_MongoDB_Mapping.jpg)
 
 #### database : 
 
@@ -42,11 +43,13 @@ Document is the basic unit of storage data. They are more oftenly referred to as
 
 ![](https://docs.mongodb.com/manual/_images/crud-annotated-document.bakedsvg.svg)
 
-src : [MongoDB Docs](https://docs.mongodb.com/manual/core/document/)
+> source: [MongoDB Docs](https://docs.mongodb.com/manual/core/document/)
 
 MongoDB supports a range of scalar value types such as : string, null, integer, double, and decimal, as well as document values, and array values.
 
-Example : 
+> note : All documents in MongoDB must contain this *_id* field. This is the unique identifier for a given document within a collection. If we don't supply the value, MongoDB will automatically create one for us.
+
+**Example:**
 ```json
 {
   "_id": "5553a98ce4b02cf7150dee1f",
@@ -80,9 +83,7 @@ Example :
   }
 }
 ```
-src : [MongoDB University Course : MongoDB Basics](https://www.youtube.com/watch?time_continue=110&v=KM_GMvAinG8&feature=emb_title)
-
-**_id** : All documents in MongoDB must contain this _id field. This is the unique identifier for a given document within a collection. If we don't supply the value, MongoDB will automatically create one for us.
+> source: [MongoDB University Course : MongoDB Basics](https://www.youtube.com/watch?time_continue=110&v=KM_GMvAinG8&feature=emb_title)
 
 
 #### cursor :
@@ -91,6 +92,7 @@ This is a pointer to the result set of a query. Clients can iterate through a cu
 
 I will try to add *primary key*, *index*, *table joins*,* *aggregation* and *transactions* here soon
 
+---
 
 ## Core Components
 
@@ -141,7 +143,9 @@ blog
 > db.users.find({"name":"Talha"}, {"name":1, "email":1}).limit(2)
 ```
 
-## Security:
+---
+
+## Security
 
 #### Authentication
 
@@ -173,20 +177,23 @@ MongoDB uses Role-Based Access Control([RBAC](https://en.wikipedia.org/wiki/Role
 
 MongoDB provides [built-in roles](https://docs.mongodb.com/manual/reference/built-in-roles/) that provide set of privileges commonly needed in a database system. We can also create and modify [user-defined roles](https://docs.mongodb.com/manual/core/security-user-defined-roles/) if these built-in-roles cannot provide the desired set of privileges.
 
+---
+
 ## Tools 
 
-##### Binary Import and Export Tools
+##### Binary Import/Export :
 
 - [mongodump](https://docs.mongodb.com/manual/reference/program/mongodump/) : Which outputs BSON representations of MongoDB
 - [mongorestore](https://docs.mongodb.com/manual/reference/program/mongorestore/) : Which restores BSON representation in MongoDB into MongoDB collections
 
 
-##### Data Import and Export Tools
+##### Data Import/Export :
 
 - [mongoexport](https://docs.mongodb.com/manual/reference/program/mongoexport/) : Which outputs JSON or CSV representations of MongoDB collections
 - [mongoimport](https://docs.mongodb.com/manual/reference/program/mongoimport/) : Which takes the JSON or the CSV representations and creates a MongoDB collection from it
 
+---
 
-### References
+## References
 - https://www.mongodb.com/
 - https://en.wikipedia.org/wiki/MongoDB
